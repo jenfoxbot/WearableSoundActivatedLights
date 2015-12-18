@@ -1,5 +1,5 @@
-// EL Wire Music Pulsing Costume
-// Blink EL Wire to the rhythm of the beat.
+// Sound Activated EL Wire Costume
+// Blink EL Wire to music and other ambient sound.
 //JenFoxBot
 
 void setup() {
@@ -31,7 +31,7 @@ void loop()
     delay(100);
   }
   
-    digitalWrite(2, LOW);
+    digitalWrite(2, LOW); //turn EL channel off
     digitalWrite(3, LOW);
     digitalWrite(4, LOW);
   
